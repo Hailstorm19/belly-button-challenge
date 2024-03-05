@@ -47,6 +47,7 @@ let layout = {
 // Render the plot to the div tag with id "plot"
 Plotly.newPlot("bar", data2, layout);
 
+// bubble chart
 let trace2 = {
   x: otu10,
   y: sample10,
@@ -59,7 +60,6 @@ let trace2 = {
 var data3 = [trace2];
 
 let layout2 = {
-  title: 'Marker Size',
   showlegend: false,
   height: 600,
   width: 600
@@ -70,5 +70,3 @@ Plotly.newPlot('gauge', data3, layout2);
 });
 
   
-  
-// Buble chart
